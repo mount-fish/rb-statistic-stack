@@ -1,0 +1,60 @@
+
+                          Statistic Stack Libary
+
+  What is it?
+  -----------
+
+	   Librbstack-sj is a statistic stack implemented based on an augmented red-black tree, 
+	   in which each element contains an unsigned integer as its key currently and maintens 
+	   a member to indicate how many nodes there are in a subtree. Users can issue push, 
+	   pop, top and getting minimum, maximum, kth small element and current size of the stack 
+	   randomly. Operations of pop, push and find kth element run with time complexity of 
+	   O(logn) and others all run with time complexity of O(1). So librbstack-sj is efficient 
+	   and proper to be used for dynamical statistics of stack with large amounts of elements. 
+
+  Installation
+  ------------
+
+	 o make all or make rbstack-test or just make
+	   An executable ELF file named rbstack-test and a shared object file named librbstack-sj.so 
+	   will be generated. You need copy the librbstack-sj.so to /usr/lib or /lib to run 
+	   rbstack-test.
+
+     o make rbstack-test-no-lib
+	   An executable ELF file named rbstack-test-no-lib will be generated, 
+	   which requires no shared library.
+
+	 o make install
+	   This operation requires super privilege to copy librbstack-sj.so to /usr/lib directory.
+	   Also, rbstack-test and librbstack-sj.so will be generated.
+
+	 o make clean
+	   Remove all intermediate object files and executale binaries.
+
+  Usage
+  --------
+
+	p  push a element or several elements into statistic stack.
+	o  pop top element out of stack.
+	t  peek the top element of current stack.
+	m  get the maximum element of current stack.
+	k  get the kth small element of current stack.
+	n  get the minimum element of current stack.
+	d  dump the red-black tree (for debugging).
+	c  clear the whole stack.
+	u  show this usage.
+	x  show description about this program.
+	z  show the size of current stack.
+	q  quit the process.
+
+  Contacts
+  --------
+
+	   This library and test program are implemented by Sun Jian from Shenzhen, China.
+	   Please contact via following methods:
+	   E-mail: jacksun328@163.com;
+	       QQ: 283745504
+	   Wechat: jVincent328
+	   Mobile: 18666883727
+
+
