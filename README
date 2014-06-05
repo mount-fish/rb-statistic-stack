@@ -20,7 +20,7 @@
 	   will be generated. You need copy the librbstack-sj.so to /usr/lib or /lib to run 
 	   rbstack-test.
 
-     o make rbstack-test-no-lib
+         o make rbstack-test-no-lib
 	   An executable ELF file named rbstack-test-no-lib will be generated, 
 	   which requires no shared library.
 
